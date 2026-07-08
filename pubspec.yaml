@@ -1,0 +1,46 @@
+name: cbs_app
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  supabase_flutter: ^2.15.1
+  flutter_map: ^8.3.0
+  latlong2: ^0.9.1
+  flutter_dotenv: ^6.0.1
+  sqflite: ^2.4.3
+  path: ^1.9.1
+  flutter_riverpod: ^3.3.2
+  geolocator: ^14.0.3
+  flutter_map_dragmarker: ^8.0.3
+  projection_cs: ^1.3.0
+  connectivity_plus: ^7.2.0
+  shared_preferences: ^2.5.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+  flutter_lints: ^6.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/geocanvas.png
+    - assets/icons/
